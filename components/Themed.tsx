@@ -12,7 +12,7 @@ export function useThemeColor(
     const colorFromProps = props[theme];
 
     if(colorFromProps){
-        return ColorFromProps;
+        return colorFromProps;
     }else{
         return Colors[theme][colorName];
     }
